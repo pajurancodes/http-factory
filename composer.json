@@ -1,0 +1,25 @@
+{
+    "name": "pajurancodes/http-factory",
+    "type": "library",
+    "description": "A PSR-17 implementation: Factories for creating PSR-7 compliant HTTP objects",
+    "keywords": ["psr", "psr-7", "psr-17", "http", "factory", "message", "request", "response"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Community of PajuranCodes",
+            "homepage": "https://github.com/pajurancodes"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+
+        "pajurancodes/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PajuranCodes\\Http\\Message\\": "src/"
+        }
+    }
+}
